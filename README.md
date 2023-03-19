@@ -1,6 +1,6 @@
 # Content Platform Practical exercise 
 
-Hello, future candidate. We are the Farfetch Content Platform team, and we propose that you make a small exercise to help us better understand your current skills and if you fill the minimum requirements we found suitable for the position in our team.
+Hello, we are the Farfetch Content Platform team, and we propose that you make a small exercise to help us better understand your current skills.
 With this in mind, we propose that you do the following: 
 
 1. Create a `REST API` that allows to perform `CRUD` operations on a specific entity;
@@ -11,7 +11,10 @@ With this in mind, we propose that you do the following:
 6. Clothing products have the size associated;
 7. When we retrieve products with our Rest API each product needs to contain a `FinalPrice` property;
 8. `FinalPrice = Price * Quantity + (Price * Type Tax) (Type Tax: Drink - 0,05, Food: 0,06, Clothing: 0,07)`.
+9. The API should be able to answer the following query: `Give me all the products that have stock and the final price is between 100 and 500`
 
+
+Don't know how to start?  Open a new terminal and type: `dotnet new webapi`
 
 # Requirements
 
